@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: white;
+    max-width: 730px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 1vh 1vh 15vh hsl(212, 23%, 69%);
+    margin: 4.5vh;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-color: hsl(210, 46%, 95%);
+}
+.main{
+    text-align: left;
+    font-size: 19px;
+    margin-top: 4vh;
+    margin-right: 4vh;
+    margin-left: 4vh;
+    font-family: manrope;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}   
+.aside1{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+}
+.aside2{
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.im{
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+.ava{
+    border-radius: 50%;
+    width: 35px;
+}
+.txt{
+    margin-left: 15px;
+}
+.txtav{
+    font-size: 13px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+.txtb{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 0px;
+    color: hsl(214, 17%, 51%);
+}
+.satu{
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.tiga{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 3px;
+    margin-bottom: 7px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.share{
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
+@media  (max-width:600px) {
+    .container {
+        flex-flow: column nowrap;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .im {
+        width: auto;
+        height: 250px;
+    }
+    .main{
+        font-size: 15px;
+    }
+}
